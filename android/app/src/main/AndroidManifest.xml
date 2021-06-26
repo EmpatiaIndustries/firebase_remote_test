@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.empatiaindustries.remotetest">
+    package="com.example.firebase_remote_flutter">
    <application
-        android:label="Remote Test"
+        android:label="firebase_remote_flutter"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

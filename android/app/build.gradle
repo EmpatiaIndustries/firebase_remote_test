@@ -34,11 +34,11 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "com.empatiaindustries.remotetest"
+        applicationId "com.example.firebase_remote_flutter"
         minSdkVersion 16
         targetSdkVersion 30
-        versionCode 1
-        versionName "1.0.0"
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
     }
 
     buildTypes {
